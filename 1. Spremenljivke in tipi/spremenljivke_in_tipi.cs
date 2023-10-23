@@ -30,7 +30,15 @@ const int KONSTANTA = 42;
 
 List<int> seznam = new List<int>() { 1, 2, 3 };
 
+LinkedList<int> povezaniSeznam = new LinkedList<int>();
+
 Dictionary<string, int> slovar = new Dictionary<string, int>() { { "Ključ", 1 } };
+
+HashSet<int> množica = new HashSet<int>() { 1, 2, 3 };
+
+Queue<int> vrsta = new Queue<int>();
+
+Stack<int> sklad = new Stack<int>();
 
 int[] tabela = new int[] { 1, 2, 3 };
 
@@ -39,6 +47,8 @@ int[,] matrika = new int[,] { { 1, 2 }, { 3, 4 } };
 int[][] jaggedTabela = new int[][] { new int[] { 1, 2 }, new int[] { 3, 4 } };
 
 int? nullableSpremenljivka = null;
+
+double? nullableDecimalnaSpremenljivka = null;
 
 var avtomatskoZaznanaSpremenljivka = 42;
 

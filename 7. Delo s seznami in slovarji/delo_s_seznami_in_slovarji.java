@@ -85,3 +85,30 @@ boolean vsebujeBorisa = ocene3.containsKey("Boris");
 // Rezultat: vsebujeBorisa = true
 
 //////////////////////////////////////////////////////////////////////////////////////
+
+// Pop in Push:
+// Uporaba metod za dodajanje in odstranjevanje elementov na začetku in koncu seznama.
+// Deluje nad List<>, Stack<> in Queue<>.
+
+List<Integer> stevilke4 = new ArrayList<Integer>();
+stevilke4.Push(1);
+stevilke4.Push(2);
+stevilke4.Push(3);
+int prvaStevilka = stevilke4.Pop();
+// Rezultat: prvaStevilka = 3
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+// Stream:
+// Uporaba streamov za pregledovanje elementov v seznamih in slovarjih.
+
+List<Integer> stevilke5 = new ArrayList<Integer>();
+stevilke5.add(1);
+stevilke5.add(2);
+stevilke5.add(3);
+stevilke5.add(4);
+stevilke5.add(5);
+stevilke5.stream().findFirst().get();
+// Rezultat: 1
+
+//////////////////////////////////////////////////////////////////////////////////////

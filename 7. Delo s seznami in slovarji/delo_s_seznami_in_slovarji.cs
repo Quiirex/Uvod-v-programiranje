@@ -70,3 +70,15 @@ bool vsebujeBorisa = ocene.ContainsKey("Boris");
 // Rezultat: vsebujeBorisa = true
 
 //////////////////////////////////////////////////////////////////////////////////////
+
+// Pop in Push:
+// Uporaba metod za dodajanje in odstranjevanje elementov na začetku in koncu seznama.
+// Deluje nad List<>, Stack<> in Queue<>.
+
+List<int> stevilke = new List<int> { 1, 2, 3, 4, 5 };
+stevilke.Push(0);
+int prvaStevilka = stevilke.Pop();
+// Rezultat: stevilke = { 0, 1, 2, 3, 4 }
+// Rezultat: prvaStevilka = 5
+
+//////////////////////////////////////////////////////////////////////////////////////
