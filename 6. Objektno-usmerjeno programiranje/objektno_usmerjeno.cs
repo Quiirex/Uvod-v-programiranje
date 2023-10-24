@@ -92,10 +92,12 @@ public class Oseba
 
     public Oseba(string ime, int starost)
     {
-        Ime = ime;
-        Starost = starost;
+        this.Ime = ime;
+        this.Starost = starost;
     }
 }
+
+// 'This' se uporablja za sklicevanje na trenutni objekt
 
 //////////////////////////////////////////////////////////////////////////////////////
 
