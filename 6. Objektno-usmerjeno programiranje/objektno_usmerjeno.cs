@@ -97,7 +97,7 @@ public class Oseba
     }
 }
 
-// 'This' se uporablja za sklicevanje na trenutni objekt
+// 'This' rezervirana beseda se uporablja za sklicevanje na trenutni objekt.
 
 //////////////////////////////////////////////////////////////////////////////////////
 

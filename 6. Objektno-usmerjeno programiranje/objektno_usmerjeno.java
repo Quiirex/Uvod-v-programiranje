@@ -51,6 +51,8 @@ public class Oseba {
     }
 }
 
+// 'This' rezervirana beseda se uporablja za sklicevanje na trenutni objekt.
+
 //////////////////////////////////////////////////////////////////////////////////////
 
 // Encapsulacija (Encapsulation):
